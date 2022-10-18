@@ -1,4 +1,4 @@
 package InterfaceLearn;
 
-public class Ostrich {
+public class Ostrich extends Bird{
 }
