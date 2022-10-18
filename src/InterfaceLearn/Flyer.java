@@ -1,0 +1,4 @@
+package InterfaceLearn;
+
+interface Flyer {
+}
