@@ -1,4 +1,6 @@
-package DataStructure;
+package DataStructure.ListCreatorLearn;
+
+import DataStructure.ListCreatorLearn.ListCreator;
 
 import java.util.*;
 
@@ -15,8 +17,13 @@ public class Main {
         List<Integer> intList = ListCreator.generateIntArrayList();
         int max = intList.get(0);
 
+        for (Integer maximum : intList) {
+//            System.out.println(maximum);
 
-        System.out.println("Maximum number in second list: " + max);
+        }
+
+
+//        System.out.println("Maximum number in second list: " + max);
 
 
 
