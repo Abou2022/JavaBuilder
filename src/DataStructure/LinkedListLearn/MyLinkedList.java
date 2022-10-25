@@ -39,6 +39,9 @@ public class MyLinkedList {
         for(String planet : planets){
             System.out.println(planet);
         }
+        System.out.println();
+        //this will print inside the array
+        System.out.println(planets);
 
     }
 }
