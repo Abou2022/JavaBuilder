@@ -41,6 +41,7 @@ public class Main {
             number.add(75);
             number.add(16);
             number.add(2);
+            number.add(3, 4);
 
             for (int i = 0; i < number.size(); i++){
                 System.out.println(number.get(i));
