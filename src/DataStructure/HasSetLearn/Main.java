@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class Main {
 
         public static void main(String[] args) {
-            HashSet<String> states = new HashSet<String>();
-            HashSet<String> answers = new HashSet<String>();
+            HashSet<String> states = new HashSet<>();
+            HashSet<String> answers = new HashSet<>();
             Scanner scan = new Scanner(System.in);
 
             states.add("alabama");
