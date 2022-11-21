@@ -48,7 +48,7 @@ This class allows us to create Bill objects. It defines the following:
 * getters and setters for name and illness
 * a method named addBill() that takes in a parameter of the Bill type and adds the bill to the list bills using the add() method for ArrayList objects.
 * an overridden toString() method that returns the following String:
-```
+```java
 "[Patient's name = " + name + ", Patient's illness = " + illness + "]";
 ```
 
@@ -62,6 +62,6 @@ a method named printBills() that prints the total value of all bills. Use the fo
 * create an ArrayList of the Bill type and save it into a variable
 * create a new patient with the name **John** and the ArrayList you just created
 * set John's illness to ***[severe cold]()*** and print the patient to the console
-* create a new Bill object for John with the amount  ***9.95*** and the date **June 15 2021**
+* create a new Bill object for John with the amount  ***99.95*** and the date **June 15 2021**
 * add the bill to John's list of bills using the appropriate method
 print all of John's bills using the appropriate method

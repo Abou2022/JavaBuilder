@@ -8,7 +8,7 @@ public class Patient {
     private String name;
     private String illness;
 
-    public double total = 0;
+    // double total = 0;
 
     private ArrayList<Bill> bills = new ArrayList<>();
 
@@ -40,10 +40,14 @@ public class Patient {
     }
 
     public void printBills(){
-        for (Bill mybills : bills){
-           double totalBill =  mybills.getAmount();
-            System.out.println(totalBill);
+        double total = 0;
+
+        for (Bill bill : bills){
+            total +=  bill.getAmount();
+            System.out.println(total);
+
         }
+
         System.out.println(total);
     }
 }
