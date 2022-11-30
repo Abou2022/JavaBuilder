@@ -1,12 +1,12 @@
-##Instructions
-###Description:
+** Instructions <br>
+* Description:<br>
 This activity will help you reinforce what you've learned about objects,
 classes and constructors and provide practice reading and implementing code in Java. 
 Your goal is to complete implementation of the Patient class and verify the functionality using the Main class.
 
 Please follow the steps below:
 
-###Steps:
+Steps:
 Add the following code to the 'Bill.java' file:
 ```java
 class Bill {
