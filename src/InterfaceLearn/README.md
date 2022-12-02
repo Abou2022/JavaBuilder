@@ -92,16 +92,21 @@ System.out.println("The Parrot is flying!");
 }
 ```
 
+```
 Using the keyword implements our Parrot now inherits functionality from the class Bird, as well as the interface Flyer. Keep in mind that we could not create a class called 'Flyer' and retain the same flexibility. Java classes may only extend one other class, meaning Parrots would either extend Bird or Flyer in that case. Using an interface gives us more flexibility. Additionally, note that we are now implementing the fly() method in our Parrot class, since the inherited method from our interface is abstract. Also note that it is public to match the level of access of the fly() method defined in the Flyer interface.
 
 Now, the error in our main() method should be gone. At this point, you may be wondering what the advantage is. This seems like more work for functionality that we had before! Let's dive a bit deeper with another example.
 
 Create a new file called 'Swimmer.java' and add the following code to the file:
+```
+```Java
 interface Swimmer {
 void swim();
 void dive();
 }
+```
 Create a new file called 'Penguin.java' and add the following code:
+```Java
 class Penguin extends Bird implements Swimmer {
 @Override
 public void swim() {
@@ -113,6 +118,7 @@ public void dive() {
 System.out.println("Penguins can dive hundreds of feet to catch fish");
 }
 }
+ ```
 Create an instance of the Penguin class in your main method and invoke the swim() and dive() methods and run the program. Make sure you see the following output:
 Penguins are agile swimmers
 Penguins can dive hundreds of feet to catch fish
@@ -133,7 +139,7 @@ Using interfaces, you've just created a structure of inheritance that allows dif
 
 Test:
 Use the test provided.
-
+```
 Sample output:
 The Parrot is flying!
 Penguins are agile swimmers
@@ -141,6 +147,8 @@ Penguins can dive hundreds of feet to catch fish
 Ducks can fly great distances when migrating
 Ducks swim by paddling their feet under the water
 Ducks can hold their breathe for several minutes when they dive for food
+
+```
 Instructions
 Description:
 This activity will help you understand when and how to use interfaces. An interface is an abstract entity, similar to an abstract class; however, unlike an abstract class, classes can inherit from multiple interfaces.
